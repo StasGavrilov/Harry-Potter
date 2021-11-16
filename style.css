@@ -1,0 +1,89 @@
+body {
+  background-image: url('https://media.harrypotterfanzone.com/just-be-kind.jpg');
+  background-size: cover;
+  background-position-x: center;
+  font-family: fantasy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: rgb(11, 186, 230);
+  height: 92vh;
+}
+
+/* counter */
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 6em;
+  line-height: 1;
+  margin: 0 1em;
+  color: white;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5em;
+}
+
+/* stats */
+div.divmaster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+.divc {
+  width: 300px;
+  border: 3px solid rgb(63, 31, 51);
+  border-radius: 55px;
+  box-shadow: 0 0 7px 1px;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.ul {
+  text-decoration: underline;
+}
+
+p#p1 {
+  color: white;
+  font-size: 30px;
+}
+
+/* book information */
+h3 {
+  font-size: 3em;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* footer */
+p#p2 {
+  align-items: center;
+  position: absolute;
+  text-align: center;
+}
+
+#footer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
