@@ -50,7 +50,7 @@ function getWinDays(extraValue) {
 // pageLeft = 132 (14/11/2021)
 
 function counters() {
-    const page = 108 - 9 - 26
+    const page = -27
     const totalDays = 103
     const totalPages = 2737
     const pagesPerDay = totalPages / totalDays
